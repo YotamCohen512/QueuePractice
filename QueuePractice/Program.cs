@@ -79,7 +79,7 @@ namespace QueuePractice
         public static void RemoveDouble(Queue<int> queue)
         {
             // removes numbers that already appeared in queue
-            // Time Complexity: O(2n)
+            // Time Complexity: O(n^2 + n)
             // n - number of values in queue
 
             Queue<int> dummy = new Queue<int>();
